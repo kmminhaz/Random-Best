@@ -12,7 +12,7 @@ const QuestionAnswer = () => {
         maintains a tree for us. On the nodes, this tree can do efficient for
         computations on the nodes.
       </p>
-      <h3>Q1- How React Works</h3>
+      <h3>Q2- props vs state?</h3>
       <p>
         <strong>Answer : </strong> State is like a local state of a component.
         That cannot be accessed and modified outside of the component. It's like
