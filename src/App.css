@@ -40,7 +40,7 @@
   margin: 3em;
 }
 .mSpace{
-  margin: 10px;
+  margin: 15px;
 }
 .flex{
   display: flex;
@@ -55,7 +55,7 @@
 .card-type{
   border-radius: 10px;
   border-color: orange;
-  box-shadow: 5px 5px 4px 5px #888888;
+  box-shadow: 3px 2px 3px 2px #888888;
   margin: 10px;
 }
 .button{
@@ -67,4 +67,7 @@
   border-radius: 5px;
   border: none;
   box-shadow: 1px 1px 1px 1px #888888;
+}
+.btnIcon{
+  margin-left: 5px;
 }
