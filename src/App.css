@@ -71,3 +71,25 @@
 .btnIcon{
   margin-left: 5px;
 }
+@media screen and (max-width: 600px){
+  .grid-type{
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: none;
+  }
+  .card-type{
+    margin: 0px;
+  }
+  .spacing{
+    margin: 1em;
+  }
+  .flex{
+    /* display: inline-block; */
+    flex-direction: column;
+  }
+  #products{
+    order: 2;
+  }
+  #cart{
+    order: 1;
+  }
+}
