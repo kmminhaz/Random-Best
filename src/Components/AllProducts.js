@@ -43,7 +43,7 @@ const AllProducts = (props) => {
           <button
             onClick={() => {
               const randomValue = Math.floor(Math.random() * (3 - 0)) + 0;
-              const newbestone = `Best one among these is ` + cart[randomValue];
+              const newbestone = `Best one would be` + cart[randomValue];
               setbestone(newbestone);
             }}
             className='button'
@@ -56,7 +56,7 @@ const AllProducts = (props) => {
           <button
             onClick={() => {
               const newbestone = "";
-              const newCart = [cart, ""];
+              const newCart = [];
               
               setbestone(newbestone);
               setcart(newCart);
