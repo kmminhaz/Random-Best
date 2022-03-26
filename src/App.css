@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,36 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.spacing{
+  margin: 3em;
+}
+.mSpace{
+  margin: 10px;
+}
+.flex{
+  display: flex;
+}
+.grid-type{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+  grid-gap: 2em;
+}
+.card-type{
+  border-radius: 10px;
+  border-color: orange;
+  box-shadow: 5px 5px 4px 5px #888888;
+  margin: 10px;
+}
+.button{
+  color: blue;
+  font-weight: bold;
+  font-size: medium;
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 1px 1px 1px #888888;
 }
