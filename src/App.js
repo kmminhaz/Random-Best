@@ -1,8 +1,5 @@
 import "./App.css";
 
-import ProductCart from "./Components/ProductCart";
-import Product from "./Components/Product";
-
 import image1 from "./images/brown-leather-shoes.jpg";
 import image2 from "./images/fashion-running-sneaker-shoes.jpg";
 import image3 from "./images/fashion-shoes-sneakers-new.jpg";
@@ -13,6 +10,7 @@ import image7 from "./images/red-retro-model-tennis.jpg";
 import image8 from "./images/shoes.jpg";
 import image9 from "./images/sneakers-shoes.jpg";
 import image10 from "./images/sport-running-shoes.jpg";
+import AllProducts from "./Components/AllProducts";
 
 const products = [
   { id: 1, image: image1, name: "Brown Leather Shoes", price: "450" },
@@ -34,23 +32,9 @@ const products = [
 
 function App() {
 
-  const handleAddToCart = () => {};
-
   return (
     <div className='flex'>
-      <div className='grid-type spacing'>
-        {products.map((product) => (
-          <Product
-            id={product.id}
-            image={product.image}
-            name={product.name}
-            price={product.price}
-          ></Product>
-        ))}
-      </div>
-      <div className='spacing'>
-        <ProductCart></ProductCart>
-      </div>
+      <AllProducts arrayOfProducts = {products}></AllProducts>
     </div>
   );
 }
