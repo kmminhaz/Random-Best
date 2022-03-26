@@ -1,4 +1,5 @@
 import "./App.css";
+import QuestionAnswer from './Components/QuestionAnswer'
 
 // importing all the images I need
 import image1 from "./images/brown-leather-shoes.jpg";
@@ -34,8 +35,9 @@ const products = [
 
 function App() {
   return (
-    <div className='flex'>
+    <div>
       <AllProducts arrayOfProducts = {products}></AllProducts>
+      <QuestionAnswer></QuestionAnswer>
     </div>
   );
 }
