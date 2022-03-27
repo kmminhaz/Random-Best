@@ -15,10 +15,10 @@ const Product = (props) => {
         <div className='mSpace'>
 
           {/* Setting Each of the "product"  */}
-          <img src={product.image} alt='' height={"300px"} width={"300px"} />
+          <img src={product.image} alt=''/>
           <div>
             <h1>{product.name}</h1>
-            <h3>{product.price}</h3>
+            <h3>price: ${product.price}</h3>
 
             {/* Button for "Add To Cart" */}
             <button className='button' onClick={() => {

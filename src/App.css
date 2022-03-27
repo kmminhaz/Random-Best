@@ -45,6 +45,10 @@
 .flex{
   display: flex;
 }
+img{
+  height: 300px;
+  width: 300px;
+}
 .grid-type{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -71,6 +75,22 @@
 .btnIcon{
   margin-left: 5px;
 }
+@media screen and (max-width: 1400px){
+  .grid-type{
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: none;
+  }
+  .card-type{
+    margin: 0px;
+  }
+  .spacing{
+    margin: 1em;
+  }
+  img{
+    height: 200px;
+    width: 200px;
+  }
+}
 @media screen and (max-width: 600px){
   .grid-type{
     grid-template-columns: repeat(1, 1fr);
@@ -91,5 +111,9 @@
   }
   #cart{
     order: 1;
+  }
+  img{
+    height: 200px;
+    width: 200px;
   }
 }
